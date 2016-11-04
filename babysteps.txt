@@ -1,2 +1,11 @@
 npm init
 npm install
+
+heroku login
+cd my-project/
+git init
+heroku git:remote -a atelier-kendo
+
+git add .
+git commit -am "start"
+git push heroku master
